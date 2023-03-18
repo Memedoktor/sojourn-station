@@ -813,3 +813,11 @@
 		update_wear_icon()
 		usr.update_action_buttons()
 		return 1
+
+/obj/item/clothing/under/sprintsuit //dok's hunter content continues from hiatus
+	name = "Hunter Silksuit"
+	desc = "A specially woven fullbody suit made from painstakingly extracting the silk glands from Emperor spiders the special methods used in weaving and treating it gives you incredible freedom of movement."
+	icon_state =
+	item_state =
+	price_tag =
+	var/slowdown = -10
