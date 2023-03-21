@@ -819,5 +819,5 @@
 	desc = "A specially woven fullbody suit made from painstakingly extracting the silk glands from Emperor spiders the special methods used in weaving and treating it gives you incredible freedom of movement."
 	icon_state =
 	item_state =
-	price_tag =
+	price_tag = 1500 //takes 2 emperor bodies, a fair bit of time, and probably will be added to that hunter bounty ship so 1500 feels fair.
 	var/slowdown = -10
