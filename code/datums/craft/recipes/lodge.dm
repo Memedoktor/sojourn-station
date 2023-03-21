@@ -279,6 +279,13 @@
 		list(QUALITY_WIRE_CUTTING, 15, 30)
 	)
 
+/datum/craft_recipe/lodge/sprintsuit
+	name = "Silk Suit"
+	result = /obj/item/clothing/under/sprintsuit
+	icon_state = "clothing"
+	steps = list(
+		list()
+	)
 // Medicine -----------------
 /datum/craft_recipe/lodge/blood_tongue
 	name = "Tatonka blood tongue"
