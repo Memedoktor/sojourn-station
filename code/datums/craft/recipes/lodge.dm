@@ -284,8 +284,15 @@
 	result = /obj/item/clothing/under/sprintsuit
 	icon_state = "clothing"
 	steps = list(
-		list()
+		list(CRAFT_MATERIAL, 8,MATERIAL_SILK, "time" = 70),
+		list(QUALITY_CUTTING, 50, "time" = 40),
+		list(QUALITY_WEAVING, 10, "time" = 70),
+		list(/obj/item/animal_part/emperor_silk_gland, 1, "time" = 60),
+		list(QUALITY_WIRE_CUTTING, 20, "time" = 30),
+		list(/obj/item/animal_part/emperor_silk_gland, 1, "time" = 60),
+		list(QUALITY_WEAVING, 10, "time" = 70)
 	)
+
 // Medicine -----------------
 /datum/craft_recipe/lodge/blood_tongue
 	name = "Tatonka blood tongue"
